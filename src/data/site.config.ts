@@ -8,14 +8,13 @@ interface SiteConfig {
 	shareMessage: string
 	paginationSize: number
 }
-
 export const siteConfig: SiteConfig = {
-	site: 'https://blog-template-gray.vercel.app/', // Write here your website url
-	author: 'Your Name', // Site author
-	title: 'Astro Theme OpenBlog', // Site title.
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
-	lang: 'en-GB',
-	ogLocale: 'en_GB',
-	shareMessage: 'Share this post', // Message to share a post on social media
+	site: 'https://isaacaudet.com/', // Your custom domain
+	author: 'Isaac Audet', // Your name as the site author
+	title: "Isaac Audet's Blog", // A descriptive title for your site
+	description: 'Exploring ideas, projects, and my journey as an electrician.', // A short, engaging description for meta tags
+	lang: 'en-CA', // Language code (en-CA for Canadian English)
+	ogLocale: 'en_CA', // OpenGraph locale (Canadian English)
+	shareMessage: 'Check out this post!', // A message to accompany social media shares
 	paginationSize: 6 // Number of posts per page
 }
